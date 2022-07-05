@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.793 s <<< FAILURE! - in TestSuite
+checkCart(TestProjects.MainPageTest)  Time elapsed: 10.211 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<You[r] cart is empty!> but was:<You[] cart is empty!>
+	at TestProjects.MainPageTest.checkCart(MainPageTest.java:98)
+

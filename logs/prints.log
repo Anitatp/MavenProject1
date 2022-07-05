@@ -1,0 +1,6 @@
+12:32:42.445 [main] INFO  resources.Initialization - Reached the HomePage
+12:32:46.886 [main] INFO  resources.Initialization - Items added to cart
+12:32:55.960 [main] INFO  resources.Initialization - Order is placed
+12:33:08.537 [main] INFO  resources.Initialization - Successfully validated the Shopping list
+12:33:10.357 [main] INFO  resources.Initialization - Checked the +,- buttons
+12:33:12.970 [main] INFO  resources.Initialization - Tested the search bar

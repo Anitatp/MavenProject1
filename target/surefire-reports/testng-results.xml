@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-03T14:44:46 EEST" name="Suite" finished-at="2022-07-03T14:45:34 EEST" duration-ms="48383">
+    <groups>
+    </groups>
+    <test started-at="2022-07-03T14:44:46 EEST" name="Test" finished-at="2022-07-03T14:45:34 EEST" duration-ms="48383">
+      <class name="TestProjects.CheckoutTest">
+        <test-method is-config="true" signature="navigateToPage()[pri:0, instance:TestProjects.CheckoutTest@3e7dd664]" started-at="2022-07-03T14:44:46 EEST" name="navigateToPage" finished-at="2022-07-03T14:44:53 EEST" duration-ms="7701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPage -->
+        <test-method signature="addToCart()[pri:0, instance:TestProjects.CheckoutTest@3e7dd664]" started-at="2022-07-03T14:44:58 EEST" name="addToCart" finished-at="2022-07-03T14:45:08 EEST" duration-ms="10175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestProjects.CheckoutTest@3e7dd664]" started-at="2022-07-03T14:45:28 EEST" name="closeBrowser" finished-at="2022-07-03T14:45:33 EEST" duration-ms="4991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestProjects.CheckoutTest -->
+      <class name="TestProjects.MainPageTest">
+        <test-method is-config="true" signature="navigateToPage()[pri:0, instance:TestProjects.MainPageTest@16414e40]" started-at="2022-07-03T14:44:53 EEST" name="navigateToPage" finished-at="2022-07-03T14:44:58 EEST" duration-ms="4262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPage -->
+        <test-method signature="checkCart()[pri:0, instance:TestProjects.MainPageTest@16414e40]" started-at="2022-07-03T14:45:08 EEST" name="checkCart" finished-at="2022-07-03T14:45:18 EEST" duration-ms="10172" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<You[r] cart is empty!> but was:<You[] cart is empty!>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<You[r] cart is empty!> but was:<You[] cart is empty!>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at TestProjects.MainPageTest.checkCart(MainPageTest.java:98)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCart -->
+        <test-method signature="checkItems()[pri:0, instance:TestProjects.MainPageTest@16414e40]" started-at="2022-07-03T14:45:18 EEST" name="checkItems" finished-at="2022-07-03T14:45:24 EEST" duration-ms="6211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItems -->
+        <test-method signature="multiAddProducts()[pri:0, instance:TestProjects.MainPageTest@16414e40]" started-at="2022-07-03T14:45:24 EEST" name="multiAddProducts" finished-at="2022-07-03T14:45:26 EEST" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiAddProducts -->
+        <test-method signature="testSearchBar()[pri:0, instance:TestProjects.MainPageTest@16414e40]" started-at="2022-07-03T14:45:26 EEST" name="testSearchBar" finished-at="2022-07-03T14:45:28 EEST" duration-ms="2335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBar -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestProjects.MainPageTest@16414e40]" started-at="2022-07-03T14:45:33 EEST" name="closeBrowser" finished-at="2022-07-03T14:45:34 EEST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestProjects.MainPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
